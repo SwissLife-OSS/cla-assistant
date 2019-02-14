@@ -1,0 +1,30 @@
+/* swisslife styles */
+@font-face{
+    font-family:"Legacy Serif ITC Book";
+    src:url("../fonts/737652.eot?#iefix");
+    src:url("../fonts/737652.eot?#iefix") format("eot"),
+      url("../fonts/737652.woff2") format("woff2"),
+      url("../fonts/737652.woff") format("woff"),
+      url("../fonts/737652.ttf") format("truetype"),
+      url("../fonts/737652.svg#2db8ca99_c4a3_4aa1_bfbb_597104667eda") format("svg");
+}
+@font-face{
+    font-family:"Legacy Serif ITC Italic";
+    src:url("../fonts/737655.eot?#iefix");
+    src:url("../fonts/737655.eot?#iefix") format("eot"),
+        url("../fonts/737655.woff2") format("woff2"),
+        url("../fonts/737655.woff") format("woff"),
+        url("../fonts/737655.ttf") format("truetype"),
+        url("../fonts/737655.svg#87fa4160_5806_4ff6_b3de_a97bda1ade77") format("svg");
+}
+
+body {
+    font-family: "Calibri W02 Light",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Legacy Serif ITC Book;
+    font-weight: normal;
+}
