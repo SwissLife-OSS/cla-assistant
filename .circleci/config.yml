@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run:
+          name: Build and Test
+          command: |
+            npm install
+            bower install
+            npm test
