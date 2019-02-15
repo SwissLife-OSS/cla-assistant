@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Pre-Build
+          name: Before Build
           command: npm install
       - run:
           name: Build
