@@ -9,7 +9,7 @@ jobs:
           name: Build and Test
           command: |
             npm install
-            bower install
+            ./node_modules/grunt-cli/bin/grunt build
             npm test
 workflows:
   version: 2
