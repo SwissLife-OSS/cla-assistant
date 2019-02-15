@@ -6,13 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Before Build
           command: npm install
       - run:
-          name: Build
-          command: ./node_modules/grunt-cli/bin/grunt
-      - run:
-          name: Tests
           command: npm test
 workflows:
   version: 2
