@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  deploy:
+  build:
     docker:
       - image: circleci/node:8
     steps:
@@ -11,3 +11,11 @@ jobs:
             npm install
             bower install
             npm test
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: dev
