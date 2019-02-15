@@ -10,7 +10,7 @@ jobs:
           command: npm install
       - run:
           name: Build
-          command: ./node_modules/grunt-cli/bin/grunt build
+          command: ./node_modules/grunt-cli/bin/grunt
       - run:
           name: Tests
           command: npm test
